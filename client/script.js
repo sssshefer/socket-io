@@ -20,7 +20,7 @@ form.addEventListener('submit', (e) => {
     const room = roomInput.value;
 
     if (message === "") return
-    socket.emit('send-message', message)
+    socket.emit('send-message', message, room)
 
     displayMessage(message);
     messageInput.value = '';
