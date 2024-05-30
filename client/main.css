@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive, sans-serif;
+    color: #1d1d1d;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+section {
+    padding: 30px 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.account {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.appDescription {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.appDescription p {
+    margin-bottom: 10px;
+}
+
+
+#myID, #myAdminID {
+    color: red;
+    width: 100%;
+    border: 2px solid grey;
+    display: inline-block;
+    border-radius: 5px;
+    min-height: 30px;
+}
+
+.container {
+    position: relative;
+    border: 1px solid black;
+    flex-grow: 1;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+#room-container {
+    height: 200px;
+}
+
+#message-container {
+    height: 400px;
+}
+
+
+#message-container div {
+    background-color: #CCC;
+    padding: 10px;
+}
+
+#message-container div:nth-child(even) {
+    background-color: #FFF;
+}
+
+
+.adminTitle {
+    color: #1d1d1d
+}
+
+.textInputButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textInputButton input {
+    flex-grow: 1;
+}
+
+.textInputButton button {
+    padding: 5px 10px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.textInputButton * {
+    margin: 0 10px
+}
+
+.textInputButton_absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1d1d1d !important;
+    color: white;
+    padding: 10px 0;
+}
+
+.textInputButton_absolute label {
+    color: white;
+}
+
+.textInputButton_absolute input {
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: #1d1d1d;
+    font-weight: 700;
+}
+
+.adminDashboard {
+    background: lightgrey;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+#admin-form .textInputButton {
+    margin-top: 30px;
+}
+
+#admin-login-error {
+    text-align: center;
+    color: red;
+    display: inline-block;
+    width: 100%;
+    margin:10px 0;
+}
+
+#admin-login-button {
+    width: 100%;
+    padding: 5px 10px;
+    background: #1d1d1d;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#admin-container {
+    height: 200px;
+    font-weight: 900;
+    padding:10px;
+    overflow-y: auto;
+}
+
+#admin-container div {
+    color: green;
+}
