@@ -14,6 +14,7 @@ socket.on('connect', () => {
 socket.on('receive-message', (message) => {
     displayMessage(message);
 })
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     const message = messageInput.value;
@@ -28,6 +29,10 @@ form.addEventListener('submit', (e) => {
 
 joinRoomButton.addEventListener('click', () => {
     const room = roomInput.value;
+    socket.emit('join-room', room, message => {
+        displayMessage(message);
+    });
+
 })
 
 function displayMessage(message) {
