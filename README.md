@@ -30,7 +30,7 @@ This project demonstrates a basic chat application using Socket.io. The applicat
  You can try the admin protected chat with the credentials provided below
   - login: adlog1
   - password: adpas1
-  - 
+    
 > [!NOTE]  
 > The application is built without any persistent data storage. <br/> All data is stored in memory and will be lost when you reload the page or restart the server.
  
