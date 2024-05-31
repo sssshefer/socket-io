@@ -52,7 +52,7 @@ WebSockets provide a way to open an interactive communication session between th
 - **Low Latency**: Enables real-time communication with minimal delay.
 - **Full-Duplex**: Allows for simultaneous two-way communication.
 - **Event-Driven**: Facilitates the handling of messages and events asynchronously.
-- 
+  
 ## Getting Started
 
 ### Prerequisites
