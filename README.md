@@ -1,4 +1,4 @@
-# Socket.io Chat Application
+# <img src="https://github.com/sssshefer/socket-io/assets/63253440/d6520745-df48-41df-9ae4-e4f12e97169c" alt="socket-io" height="28"> Socket.io Chat Application
 
 This project demonstrates a basic chat application using Socket.io. The application supports public and private chat rooms and includes an admin panel for managing messages.
 
